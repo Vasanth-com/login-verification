@@ -127,7 +127,7 @@ export async function login(req,res) {
                     const token =  jwt.sign({
                         userId:user._id,
                         username:user.username
-                    }, ENV.JWT_SECRET ,{expiresIn:'1d'})
+                    }, "q4Ou7TFVpcmKWwmQJTyctLCG2YRwV/bd3Cr2EU9lsiU=" ,{expiresIn:'1d'})
                     
                     return res.status(201).send({
                         msg:"Login successfully",

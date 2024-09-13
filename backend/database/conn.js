@@ -9,7 +9,7 @@ async function connect() {
 
     // const db = await mongoose.connect(getURI)
 
-    const db  = await mongoose.connect(ENV.MONGO_DB)
+    const db  = await mongoose.connect("mongodb://localhost:27017/login")
     console.log("Database Connected..!");
     return db
     
