@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 // import { MongoMemoryServer } from "mongodb-memory-server";
-import ENV from '../config.js'
 async function connect() {
     // const mongod = await MongoMemoryServer.create();
     // const getURI = mongod.getUri();
