@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "dev":"nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,5 +22,9 @@
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.15",
     "otp-generator": "^4.0.1"
-  }
+  },
+  "devDependencies": {
+  "nodemon": "^2.0.0"  
+}
+
 }
